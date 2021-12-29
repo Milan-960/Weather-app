@@ -5,7 +5,7 @@ import { fetchweather } from "./Api/FetchWeather";
 const App = () => {
   const [query, setQuery] = useState("");
   const [weather, setWeather] = useState({});
-  const [errorMessage, setErrorMessage] = useState("");
+  // const [errorMessage, setErrorMessage] = useState();
 
   // const dateBuild = (d) => {
   //   let date = String(new window.Date());
@@ -13,19 +13,19 @@ const App = () => {
   //   return date;
   // };
 
-  const handleClick = () => {
-    setErrorMessage("Please enter the correct city name!");
-  };
+  // const handleClick = () => {
+  //   setErrorMessage("Please enter the correct city name!");
+  // };
 
   const search = async (event) => {
     if (event.key === "Enter") {
       const data = await fetchweather(query);
 
       setWeather(data);
-    } else {
-      const err = handleClick();
-      console.log(err);
     }
+    // else {
+    //   const err = handleClick();
+    // }
   };
 
   return (
@@ -38,7 +38,7 @@ const App = () => {
         onChange={(event) => setQuery(event.target.value)}
         onKeyPress={search}
       />
-      {errorMessage && <div className="error"> {errorMessage} </div>}
+      {/* {errorMessage && <div className="error"> {errorMessage} </div>} */}
       {weather.main && (
         <div className="city">
           <div className="date"> {new Date().toDateString("en-US")}</div>
