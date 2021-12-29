@@ -7,11 +7,11 @@ const App = () => {
   const [weather, setWeather] = useState({});
   const [errorMessage, setErrorMessage] = useState("");
 
-  const dateBuild = (d) => {
-    let date = String(new window.Date());
-    date = date.slice(3, 15);
-    return date;
-  };
+  // const dateBuild = (d) => {
+  //   let date = String(new window.Date());
+  //   date = date.slice(3, 15);
+  //   return date;
+  // };
 
   const handleClick = () => {
     setErrorMessage("Please enter the correct city name!");
