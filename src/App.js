@@ -22,6 +22,7 @@ const App = () => {
       const data = await fetchweather(query);
 
       setWeather(data);
+      setQuery("");
     }
     // else {
     //   const err = handleClick();
