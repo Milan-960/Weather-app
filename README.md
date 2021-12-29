@@ -1,6 +1,6 @@
-# Weather App
+# Weather App 🔥
 
-### For clone this in your pc pest below link in your terminal 👇
+### For clone this repository in your pc pest below link in your terminal 👇
 
 ```
 git clone https://github.com/Milan-960/Weather-app.git
