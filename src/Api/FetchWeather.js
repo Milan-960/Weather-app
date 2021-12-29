@@ -1,5 +1,4 @@
 import axios from "axios";
-import React from "react";
 
 const URL = "https://api.openweathermap.org/data/2.5/weather";
 const API_KEY = "21b17ce1518a5be6b1097495053cb5eb";
