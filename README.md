@@ -4,7 +4,6 @@
 
 ```
 git clone https://github.com/Milan-960/Weather-app.git
-
 ```
 # - Run **npm install**
 
