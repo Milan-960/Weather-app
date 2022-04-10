@@ -8,9 +8,13 @@
 git clone https://github.com/Milan-960/Weather-app.git
 ```
 
-# - Run **npm install**
+```
+npm install
+```
 
-# - Run **npm start**
+```
+npm start
+```
 
 <img align="right" src="./public/home.png" width="100%"/>
 <br/>
